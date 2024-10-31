@@ -1,0 +1,27 @@
+======== Changelog ========
+
+This file contains only old changelog. See readme.txt for newer versions.
+
+= v1.0.3 (May 25, 2024) =
+CHANGED
+- Adjust the plugin structure for integrating expanded feature versions in the future.
+
+FIXED
+- Fix the issue with numeric input fields causing errors when entered as strings.
+- Adjust the function for truncating comment content to avoid incorrect word breaks that change the meaning.
+
+= v1.0.2 (March 1, 2015) =
+UPDATED
+- Enable or disable scroll.
+- Option to include a separator (HTML tags) with inline CSS styling (default is &lt;br/&gt;).
+
+FIXED
+- Feedback at https://wordpress.org/support/topic/various-changes.
+
+= 1.0.1 (February 28, 2015) =
+UPDATED
+- Option to show author link.
+- Avatar alignment options: left, right, zigzag left to right, or right to left.
+
+FIXED
+- Issue with the "Show date?" property. Thanks to https://profiles.wordpress.org/happyecho

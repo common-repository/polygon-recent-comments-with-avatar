@@ -1,0 +1,78 @@
+ul#recentcomments {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.poly-verified{color:green;position:relative;position: relative; left: -10px; top: -6px;}
+
+ul#recentcomments li.recentcomments {
+    border-bottom: 1px solid #C6C6C6;
+    margin: 0 0 8px;
+    padding: 0 0 9px;
+    background-image: none;
+    list-style: none;
+    display: inline-block;
+    clear: both
+}
+
+ul#recentcomments .palignleft,
+ul#recentcomments .palignleftright-0,
+ul#recentcomments .palignrightleft-1 {
+    float: left;
+    margin: 0 8px 0 0;
+    padding: 0
+}
+
+ul#recentcomments .palignright,
+ul#recentcomments .palignrightleft-0,
+ul#recentcomments .palignleftright-1 {
+    float: right;
+    margin: 0 0 8px 0;
+    padding: 0
+}
+
+ul#recentcomments img.avatar {
+    background-color: #FFFFFF;
+    border: 1px solid #C6C6C6;
+    box-shadow: none;
+    padding: 4px;
+    margin: 0
+}
+
+ul#recentcoments .date {
+    color: #CCC;
+    font-size: 12px;
+    font-style: italic
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.square {
+    border-radius: 0%;
+}
+
+.eclip1 {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 0%;
+}
+
+.eclip2 {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 50%;
+}
+
+.eclip3 {
+    border-radius: 20% 50%;
+}
+
+.eclip4 {
+    border-radius: 50% 20%;
+}
